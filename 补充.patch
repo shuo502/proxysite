@@ -1,0 +1,19 @@
+Index: py/proxysrc.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- py/proxysrc.py	(revision 6b2a005c76d6cfd574f4cabf7af34a4a1ab21d0a)
++++ py/proxysrc.py	(date 1517962866809)
+@@ -14,8 +14,10 @@
+ @time: 2018/1/25 16:26
+ """
+ dict={
+-    "xici":"http://www.xicidaili.com"
++    "xici":"http://www.xicidaili.com",
++       "mipu":"https://proxy.mimvp.com/free.php?proxy=in_tp&sort=&page=1"
+ }
++
+ 
+ 
+ def func():
