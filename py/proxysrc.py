@@ -14,8 +14,10 @@
 @time: 2018/1/25 16:26
 """
 dict={
-    "xici":"http://www.xicidaili.com"
+    "xici":"http://www.xicidaili.com",
+       "mipu":"https://proxy.mimvp.com/free.php?proxy=in_tp&sort=&page=1"
 }
+
 
 
 def func():
