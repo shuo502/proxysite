@@ -31,6 +31,7 @@ class Proxy:
             try:
                 sock, addr = self.proxy.accept()
                 self.handleData(sock)
+                print(addr)
             except KeyboardInterrupt:
                 print("Bye...")
                 break
@@ -40,6 +41,7 @@ class Proxy:
         req = requests.post(ProxyServerUrl, {'data': rawdata});
         sock.sendall(str.encode(req.text))
 
-
-proxy = Proxy(('localhost', 8080))
-proxy.start()
+if __name__=='__main__':
+    proxy = Proxy(('127.0.0.1', 8080))
+    print( "proxy localhost  prot 8080" )
+    proxy.start()
